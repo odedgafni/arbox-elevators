@@ -1,0 +1,37 @@
+@import "../index.scss";
+
+.floor {
+    display: flex;
+    align-items: center;
+
+    .floor-number {
+        min-width: 100px;
+        text-align: end;
+        margin-right: 5px;
+    }
+
+    .elevator-shaft {
+        display: flex;
+        position: relative;
+        justify-content: center;
+        align-items: center;
+        padding: 5px;
+        border: 1px solid rgb(216, 216, 216);
+        width: 100px;
+        height: 50px;
+    }
+    .call-btn {
+        @include button;
+        
+        &.waiting {
+            background-color: rgb(169, 70, 70);
+        }
+        
+        &.arrived {
+            background-color: unset;
+            color: rgb(63 177 88);
+            border: 1px solid rgb(63 177 88);
+            font-weight: 700;
+        }
+    }
+}

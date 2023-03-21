@@ -1,0 +1,15 @@
+.elevator {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 40px;
+    padding: 10px;
+    margin-left: 25px;
+
+    .busy {
+        color: rgb(204, 104, 104);
+    }
+    .arrived {
+        color: rgb(63 177 88);
+    }
+}

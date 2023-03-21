@@ -1,0 +1,11 @@
+@mixin button {
+    padding: 7px;
+    width: 75px;
+    margin-left: 5px;
+    background-color: rgb(63 177 88);
+    color: white;
+    border: unset;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 12px;
+}
