@@ -12,7 +12,7 @@ const Setup = ({ setNumOfFloors, setNumOfElevators }: Props) => {
         const floors = e.target[0];
         const elevators = e.target[1];
 
-        setNumOfFloors(Number(floors.value));
+        setNumOfFloors(Number(floors.value) + 1);
         setNumOfElevators(Number(elevators.value));
     };
 
