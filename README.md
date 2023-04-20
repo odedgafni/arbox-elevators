@@ -1,8 +1,8 @@
-# arbox-elevators
+# elevators
 
 **Clone:**
 ```
-git clone git@github.com:odedgafni/arbox-elevators.git
+git clone git@github.com:odedgafni/elevators.git
 ```
 **Run:**
 ```
